@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EPUB/AZW3 to PDF Converter</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+<div class="bg"></div>
+  <div class="bg bg2"></div>
+  <div class="bg bg3"></div>
+  <div class="container">
+    <div class="uploadzone">
+      <div class="wrapper" id="drag-warper">
+        <div class="drag-area" id="drag-area">
+          <form action="#" id="drag-form">
+            <input class="file-input" type="file" id="file-input" name="file" hidden>
+            <i class="fas fa-cloud-upload-alt" id="drag-cloud"></i>
+            <p id="drag_text">Drag and Drop File to Upload</p>
+          </form>
+          <button id="upload-button">Convert & Download in pdf format</button>
+        </div>
+        <section class="progress-area"><div id="progress-bar"></div></section>
+        <section class="uploaded-area"></section>
+      </div>
+    </div>
+    <div id="snackbar"></div>
+  </div>
+  <script src="js/upload.js"></script>
+</body>
+</html>
+
